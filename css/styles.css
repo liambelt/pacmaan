@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    color: yellow;
+    font-family: 'Ultra', serif;
+}
+
+.fondo {
+    background-image: url(../assets/29653.png);
+    background-size: 200%;
+    background-position: center;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+
+.pacmanmotion {
+    position: relative;
+    animation: pacman 10s infinite;
+
+}
+
+@keyframes pacman {
+    0%   {top: 300px; left: 0px;}
+    5%  {top: 300px; left: 245px;}
+    8%  {top: 345px}
+    10% {top: 340px;}
+  }
